@@ -5,33 +5,39 @@
 }
 
 .hov:hover {
-    background: rgb(222, 226, 226);
+    background: rgb(245,245,245);
     border: none;
-    border-radius: 50px; cursor: pointer;
+    border-radius: 20px; 
+    cursor: pointer;
 }
 
 .twit {
     color: rgba(29, 155, 240, 1);
 }
 .twit:hover {
-    background: rgba(174, 219, 250, 1);
+    background: #d3eaf8;
     border: none;
     border-radius: 30px;
 }
 
 .checkr {
-    background: rgba(29, 155, 240, 1);
+    background-color: rgba(142, 205, 248, 1);
     color: white;
     border: none;
     border-radius: 30px;
 }
 
 .checkr:hover {
-    background: rgb(27, 142, 219);
+    background: rgba(29, 155, 240, 1);
     color: white;
     border: none;
     border-radius: 30px;
 
+}
+
+.tweet-button {
+    color: white;
+    background-color: rgba(142, 205, 248, 1);
 }
 
 .home:hover {
@@ -55,6 +61,22 @@
     color: black;
 }
 
+.home-anchor {
+    color: rgba(45, 162, 241, 1);
+}
+
+.gps-anchor {
+    color: rgba(45, 162, 241, 0.5);
+}
+
+.home-anchor:hover {
+    border-radius: 20px;
+    color: #1d9bf0;
+    background: #d3eaf8;
+    transition-duration: 0.2s;
+    border: none;
+}
+
 .anchor-user:hover {
     cursor: pointer;
     color: black;
@@ -72,7 +94,7 @@
 .tweet:hover {
     background: rgb(245,245,245);
     border: none;
-    border-radius: 30px;
+    border-radius: none;
     cursor: pointer;
 }
 
@@ -81,17 +103,21 @@
     border-radius: 15px;
 }
 
+.timeframe:hover {
+    text-decoration: underline;
+}
+
 .comment-btn:hover {
     color: #1d9bf0;
     transition-duration: 0.2s;
 }
 
 .comment-btn:hover > i {
+    border-radius: 20px;
     color: #1d9bf0;
     background: #d3eaf8;
     transition-duration: 0.2s;
     border: none;
-    border-radius: 50px;
 }
 
 .retweet-btn:hover {
@@ -152,6 +178,22 @@
     border: none;
     border-radius: 15px;
     background: rgba(247, 249, 249, 1);
+}
+
+.trend-body p:hover{
+    background: rgb(235, 235, 235);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.trend-block:hover {
+    background: rgb(235, 235, 235);
+}
+
+.show-more-block:hover {
+    background: rgb(235, 235, 235);
+    border-bottom: none;
+    border-radius: 15px;
 }
 
 .trend-body-follow {
