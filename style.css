@@ -181,6 +181,7 @@
 }
 
 .trend-body p:hover{
+    cursor: pointer;
     background: rgb(235, 235, 235);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -188,6 +189,7 @@
 
 .trend-block:hover {
     background: rgb(235, 235, 235);
+    cursor: pointer;
 }
 
 .show-more-block:hover {
