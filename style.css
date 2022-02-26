@@ -5,15 +5,16 @@
 }
 
 .hov:hover {
-    background: rgb(245,245,245);
+    background: rgb(245, 245, 245);
     border: none;
-    border-radius: 20px; 
+    border-radius: 20px;
     cursor: pointer;
 }
 
 .twit {
     color: rgba(29, 155, 240, 1);
 }
+
 .twit:hover {
     background: #d3eaf8;
     border: none;
@@ -83,7 +84,7 @@
     text-decoration: underline;
 }
 
-.check-user{
+.check-user {
     color: rgb(74, 174, 241);
 }
 
@@ -92,7 +93,7 @@
 }
 
 .tweet:hover {
-    background: rgb(245,245,245);
+    background: rgb(245, 245, 245);
     border: none;
     border-radius: none;
     cursor: pointer;
@@ -107,12 +108,20 @@
     text-decoration: underline;
 }
 
+.threedots:hover {
+    color: #1d9bf0;
+    border: none;
+    background: #d3eaf8;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+}
+
 .comment-btn:hover {
     color: #1d9bf0;
     transition-duration: 0.2s;
 }
 
-.comment-btn:hover > i {
+.comment-btn:hover>i {
     border-radius: 20px;
     color: #1d9bf0;
     background: #d3eaf8;
@@ -125,7 +134,7 @@
     transition-duration: 0.2s;
 }
 
-.retweet-btn:hover > i {
+.retweet-btn:hover>i {
     color: rgb(0, 186, 124);
     background: rgb(183, 235, 217);
     transition-duration: 0.2s;
@@ -138,13 +147,14 @@
     transition-duration: 0.2s;
 }
 
-.like-btn:hover > i {
+.like-btn:hover>i {
     color: rgb(249, 24, 128);
     background: rgb(241, 195, 216);
     transition-duration: 0.2s;
     border: none;
     border-radius: 50px;
 }
+
 .comment-icon {
     background-color: rgba(211, 234, 248, 0);
     border: none;
@@ -180,7 +190,7 @@
     background: rgba(247, 249, 249, 1);
 }
 
-.trend-body p:hover{
+.trend-body p:hover {
     cursor: pointer;
     background: rgb(235, 235, 235);
     border-bottom-left-radius: 15px;
@@ -203,6 +213,18 @@
     border: none;
     border-radius: 15px;
     background: rgba(247, 249, 249, 1);
+}
+
+.follow-recommend:hover {
+    background: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+.follow-more:hover {
+    background: rgb(235, 235, 235);
+    cursor: pointer;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .footer-items {
