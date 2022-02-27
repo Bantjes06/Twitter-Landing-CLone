@@ -7,8 +7,9 @@
 .hov:hover {
     background: rgb(245, 245, 245);
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     cursor: pointer;
+    transition-duration: 0.2s;
 }
 
 .twit {
@@ -106,6 +107,12 @@
 
 .timeframe:hover {
     text-decoration: underline;
+}
+
+.gear-icon:hover {
+    background: rgb(235, 235, 235);
+    border: none;
+    border-radius: 15px;
 }
 
 .threedots:hover {
