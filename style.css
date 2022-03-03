@@ -4,22 +4,27 @@
     box-sizing: border-box;
 }
 
+.left-section {
+    z-index: 3;
+}
+
 .hov:hover {
+    border-radius: 30px;
     background: rgb(245, 245, 245);
     border: none;
-    border-radius: 30px;
     cursor: pointer;
-    transition-duration: 0.2s;
 }
 
 .twit {
     color: rgba(29, 155, 240, 1);
+
 }
 
 .twit:hover {
     background: #d3eaf8;
     border: none;
     border-radius: 30px;
+
 }
 
 .checkr {
@@ -37,13 +42,26 @@
 
 }
 
-.tweet-button {
+#tweet-button {
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
     color: white;
     background-color: rgba(142, 205, 248, 1);
 }
 
+#tweet-button:hover {
+    color: white;
+    background-color: rgba(29, 155, 240, 1);
+}
+
 .home:hover {
     cursor: pointer;
+}
+
+.middle-bar {
+    background: white;
+    opacity: 99.9%;
 }
 
 .area {
@@ -52,6 +70,13 @@
 }
 
 .profimg {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+}
+
+.profimgwho {
     height: 3rem;
     width: 3rem;
     border: none;
@@ -75,7 +100,6 @@
     border-radius: 20px;
     color: #1d9bf0;
     background: #d3eaf8;
-    transition-duration: 0.2s;
     border: none;
 }
 
@@ -125,39 +149,33 @@
 
 .comment-btn:hover {
     color: #1d9bf0;
-    transition-duration: 0.2s;
 }
 
 .comment-btn:hover>i {
     border-radius: 20px;
     color: #1d9bf0;
     background: #d3eaf8;
-    transition-duration: 0.2s;
     border: none;
 }
 
 .retweet-btn:hover {
     color: rgb(0, 186, 124);
-    transition-duration: 0.2s;
 }
 
 .retweet-btn:hover>i {
     color: rgb(0, 186, 124);
     background: rgb(183, 235, 217);
-    transition-duration: 0.2s;
     border: none;
     border-radius: 50px;
 }
 
 .like-btn:hover {
     color: rgb(249, 24, 128);
-    transition-duration: 0.2s;
 }
 
 .like-btn:hover>i {
     color: rgb(249, 24, 128);
     background: rgb(241, 195, 216);
-    transition-duration: 0.2s;
     border: none;
     border-radius: 50px;
 }
@@ -170,6 +188,16 @@
 
 .comment-icon:hover {
     background-color: rgba(211, 234, 248, 1);
+}
+
+.search-nav {
+    left: 67.5%;
+    margin-right: 6.3%;
+    width: 26.2%;
+}
+
+.search-bar {
+    background-color: white;
 }
 
 .search-b {
@@ -255,4 +283,9 @@
 
 .right-col {
     height: 2000px;
+}
+
+
+.par {
+    position: relative;
 }
